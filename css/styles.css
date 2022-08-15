@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+main {
+    padding: 100px;
+}
+.theme-title {
+    text-align: center;
+    
+}
+p {
+    text-align: center;
+}
+
+.bg-theme {
+    padding: 150x;
+
+}
+.bg-color {
+    background: linear-gradient(aqua, black);
+    
+}
+
+/* section 1 starts here*/
+
+.div-cont1 {
+    text-align: center;
+    width: 100%;
+
+}
+
+.section-title1 {
+    text-align: left;
+}
+/* section 1 ends here */
+
+
+/* section 2 starts here */
+.div-cont2 {
+    text-align: center;
+}
+
+.section-title2 {
+    text-align: right;
+}
+/* section2 ends here */
+
+
+footer {
+    padding: 50px; 
+    text-align: center;
+    color: white;
+    background-color: rgb(36, 46, 106);
+    margin-top: 10%;
+}
