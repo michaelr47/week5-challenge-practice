@@ -4,10 +4,10 @@
 }
 
 body > header {
-    padding: 200px;
+    padding: 250px;
     text-align: center;
     color: white;
-    background: linear-gradient(to bottom, rgb(3,211,254), black);
+    /* background-image: linear-gradient(to bottom, rgb(3,211,254), black); */
 }
 
 main {
@@ -28,4 +28,20 @@ footer {
     text-align: center;
     color: white;
     padding: 50px;
+}
+
+@media screen and (min-width: 480px) {
+     body > header {
+        background-color:lightblue;
+    }
+}
+@media screen and (min-width: 768px) {
+    body > header {
+        background-color:darkblue;
+    }
+}
+@media screen and (min-width: 1024px) {
+    body > header {
+        background-color:orange;
+    }
 }
